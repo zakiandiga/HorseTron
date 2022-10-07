@@ -1,0 +1,353 @@
+{
+    "name": "InputAction",
+    "maps": [
+        {
+            "name": "CarControl",
+            "id": "78c1da8a-e502-4408-b9cd-9c7659e8a65d",
+            "actions": [
+                {
+                    "name": "Forward",
+                    "type": "Button",
+                    "id": "30b4ff97-c318-4d35-8c78-d5bc64010af6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Turn",
+                    "type": "Button",
+                    "id": "5575d817-a753-480b-b245-f934bc720a63",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Brake",
+                    "type": "Button",
+                    "id": "bc8e8893-336b-4285-a100-c1a33c4c5784",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "9f482a76-bfcc-4fa5-aa67-e0403690011b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Boost",
+                    "type": "Button",
+                    "id": "2f547a1c-7bcd-42ec-8064-fd4e849c6e70",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "WASD",
+                    "id": "02a6b107-6ea0-40b4-a25a-7b2899976de1",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Forward",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "ae507658-c198-48e1-9f1c-976c884308c1",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Forward",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "1d3cef7d-8f2d-4ba6-a754-83b2a2afaa15",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Forward",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Controller",
+                    "id": "a9cfe222-8be1-4b2f-ba70-b9b0aed7f16d",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Forward",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "positive",
+                    "id": "6a9f0332-97b5-4c09-a103-cd2b2c8c9e2d",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Forward",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "negative",
+                    "id": "1f9b45c3-208b-4531-9c33-c0d159e2eac8",
+                    "path": "<Gamepad>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Forward",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "RightStickController",
+                    "id": "f1c7e6cb-21ef-41ff-8206-cf803d656d46",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Forward",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "positive",
+                    "id": "1c39fc79-0f48-4192-bd55-7bde92da92de",
+                    "path": "<Gamepad>/rightStick/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Forward",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "negative",
+                    "id": "8b00530e-2023-4154-8885-a7a933a7b794",
+                    "path": "<Gamepad>/rightStick/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Forward",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "WASD",
+                    "id": "a07d9006-0741-499c-af6d-4f3956cd346e",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Turn",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "d43755b8-1a02-4daa-8678-ad5e3b071e2e",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Turn",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "e74a6b8e-271d-4934-8288-d0779d07ee99",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Turn",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "ControllerLeftStick",
+                    "id": "71f22132-b492-446d-88e0-224749029bf2",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Turn",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "84c26fca-9711-43c7-b189-90407056db99",
+                    "path": "<Gamepad>/leftStick/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Turn",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "63cb6868-cbcf-448b-bf3a-3a86a052590f",
+                    "path": "<Gamepad>/leftStick/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Turn",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "080e9975-21b2-45a4-9d23-c0860633303c",
+                    "path": "<Keyboard>/leftShift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Brake",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f55c952d-42a3-43d9-9adc-cc4699d6b4c7",
+                    "path": "<Gamepad>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Brake",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "200731f3-ada6-4794-8b49-ad9f5c020fd9",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "88538a58-c534-415d-a052-76dad3b506e3",
+                    "path": "<Gamepad>/rightShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Boost",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "UpperBody",
+            "id": "63c9cf63-0819-46eb-a1d2-0fb18d309df2",
+            "actions": [
+                {
+                    "name": "FaceDirection",
+                    "type": "Button",
+                    "id": "17e3db86-98e3-46b4-9792-a7cb19f5cedb",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "CinemachineMouse",
+                    "type": "PassThrough",
+                    "id": "cd55fa92-ada0-4b60-b70e-f9361c95f401",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "Mouse",
+                    "id": "42810217-0834-4f99-bfbf-28e2bba84e32",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FaceDirection",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "e3e554c0-6300-49cf-9be2-75b0118b4b38",
+                    "path": "<Mouse>/delta/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FaceDirection",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "e199b906-3e95-4413-ad0a-8dcfd1d20df2",
+                    "path": "<Mouse>/delta/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FaceDirection",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "ffd6af4d-aa52-4592-b7b3-f84ce9950348",
+                    "path": "<Mouse>/delta/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FaceDirection",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "5bb76ba1-895e-43a6-a52d-2f849bee9c9a",
+                    "path": "<Mouse>/delta/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FaceDirection",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "d5192c18-ce38-4400-9655-5812432769fb",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CinemachineMouse",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
