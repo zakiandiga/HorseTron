@@ -212,7 +212,7 @@ public class PushMovement : MonoBehaviour
     }
     #endregion
 
-#if Unity_EDITOR
+#if UNITY_EDITOR
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.magenta;
