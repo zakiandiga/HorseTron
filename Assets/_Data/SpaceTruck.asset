@@ -16,12 +16,12 @@ MonoBehaviour:
   throttleForce: 80
   brakePushRate: 20
   brakeReleaseRate: 8
-  turnStrength: 4.97
+  turnStrength: 3.4
   wheelRotationSpeed: 18
   wheelRotationLimit: 40
   centerOfMass: {x: 0, y: 0.7, z: 0}
   fallMod: 40
-  stabilizerTolerance: 300
-  stabilizerReactionSpeed: 400
+  stabilizerTolerance: 328
+  stabilizerReactionSpeed: 211
   jumpForce: 2000
   boostForce: 50

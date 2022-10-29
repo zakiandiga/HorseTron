@@ -78,12 +78,13 @@ public class PushMovement : MonoBehaviour
     }
 
     private void Rotation()
-    {
+    {       
+
         if(GroundCheck())
         {
-            if(CurrentSpeed > 0.8f)
+            //if(CurrentSpeed > 0.1f)
             {
-                if (forwardDirection == ForwardDirection.forward)
+                if (forwardDirection == ForwardDirection.forward || forwardDirection == ForwardDirection.neutral)
                 {
                     slerpBodyRotation = Quaternion.Slerp(bodyrb.rotation, FrontWheelTurner.rotation,
                         angularSpeed * Mathf.Deg2Rad * Time.deltaTime);
@@ -152,17 +153,17 @@ public class PushMovement : MonoBehaviour
         switch (forwardDirection)
         {
             case ForwardDirection.forward:
-                if (CurrentForwardVelocity < 0.3f)
+                if (CurrentForwardVelocity < 0.1f)
                     forwardDirection = ForwardDirection.neutral;                                  
                 break;
             case ForwardDirection.backward:
-                if (CurrentForwardVelocity > -0.3f)
+                if (CurrentForwardVelocity > -0.1f)
                     forwardDirection = ForwardDirection.neutral;                
                 break;
             case ForwardDirection.neutral:
-                if (CurrentForwardVelocity > 0.2f)
+                if (CurrentForwardVelocity > 0.1f)
                     forwardDirection = ForwardDirection.forward;
-                else if (CurrentForwardVelocity < -0.2f)
+                else if (CurrentForwardVelocity < -0.1f)
                     forwardDirection = ForwardDirection.backward;
                 break;
         }
